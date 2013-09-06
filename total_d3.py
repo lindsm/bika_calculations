@@ -1,7 +1,7 @@
 def total_d3(d2_raw,d3_raw,d2_factor,d3_factor):
 	""" (number, number, number, number)  --> integer
 
-	Return the calculated integer value of d3_raw combined with d2_raw if d2_raw is greater than 1.96.
+	Return the calculated integer value of d3_raw. If d2_raw is greater than 1.95 add it to the returned value.
 
 
 	>>>total_d3(5.3677,31.74,1.18,1.28)
